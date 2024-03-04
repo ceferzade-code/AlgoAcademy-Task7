@@ -1,0 +1,105 @@
+body {
+    background-image: url(../pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: hsl(225, 100%, 94%);
+}
+
+section {
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    border-radius: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+section>h1 {
+    color: hsl(223, 47%, 23%);
+}
+
+section>p {
+    color: hsl(224, 23%, 55%);
+    padding-inline: 24px;
+    line-height: 24px;
+}
+
+section>img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+section>div.icon {
+    display: flex;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    margin-inline: 16px;
+    padding: 8px;
+}
+
+section>div.icon>a:hover {
+    text-decoration: none;
+}
+
+section>div.icon>img {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+
+section>div.icon>div>h4 {
+    padding: 8px;
+    margin: 0;
+    color: hsl(223, 47%, 23%);
+}
+
+section>div.icon>div>p {
+    padding: 0;
+    margin: 0;
+    color: hsl(224, 23%, 55%);
+}
+
+section>div.icon>div {
+    padding-inline-end: 42px;
+}
+
+#proceed {
+    text-decoration: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    padding: 16px;
+    display: block;
+    border-radius: 12px;
+    margin: 16px;
+}
+
+#proceed:hover {
+    background-color: hsl(223, 47%, 23%);
+}
+
+section>a {
+    text-decoration: none;
+    padding: 16px;
+    display: inline-block;
+    margin-bottom: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+section>a:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+
+@media only screen and (max-width: 375px) {
+    body {
+        background-image: url(../pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+    }
+}
